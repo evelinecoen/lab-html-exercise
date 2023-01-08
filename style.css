@@ -63,33 +63,97 @@ nav {
     margin-right: 1rem;
   }
 
-  #search-bar {
-    color: rgba (0,0,0,.05);
-    width: 15px;
-    height: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-.search-bar form { 
-  display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: stretch;
-	align-content: space-between;
+.nav-2 {
+  height: 30px;
 }
-
-  .search-bar form .npmlogo {
-    width: 5%;
-    display: flex;
-    align-items: flex-start;
+  header .search-bar {
+    width: 100%;
+    position: relative;
   }
-  .search-bar form .magnifying-glass {
-    width: 3%;
+  
+  ::placeholder {
+   font-family: "Poppins";
+  }
+  
+  .search-bar .test-search-bar {
+    background-color: white;
+      color: black;
+      box-sizing: border-box;
+      font-size: 1rem;
+      padding: 5px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 12px 5px;
+    
   }
 
+.search-bar {
+    padding: 0 25px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .npmlogo {
+    width: 40px;
+  }
+  
+  .magnifying-glass {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+  }
+  .search-bar .test-submit-button {
+    list-style: none;
+    margin: 5px 30px;
+    background-color: white;
+      color: black;
+      box-sizing: border-box;
+      font-size: 1rem;
+      padding: 5px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 12px 5px;
+    border-radius: 0;
+  }
+  header .search-bar .buttons {
+  list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    margin: 2px 30px;
+    margin-right: 50px;
+  }
+  header .search-bar .buttons .join {
+    background-color: white;
+      color: black;
+      box-sizing: border-box;
+      font-size: 1rem;
+      padding: 5px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 2px 5px;
+      
+  }
+  
+  header .search-bar .buttons .log-in {
+      background-color: white;
+      color: black;
+      box-sizing: border-box;
+      font-size: 1rem;
+      padding: 5px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 2px 5px;
+      border: none;
+      
+  }
 
   #section-1 {
     display: flex;
@@ -184,7 +248,8 @@ nav {
     border: none;
     box-sizing: border-box;
     padding: 5px;
-    width: 40%;
+    width: 90%;
+    inline-size: 300px;
     
   }
   
