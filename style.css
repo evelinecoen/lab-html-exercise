@@ -1,0 +1,218 @@
+@import url ('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body {
+  font-family: "Poppins";
+  font-size: 12px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins";
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 8em;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 { 
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3%;
+}
+  
+header > div {
+    padding: 0 25px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    font-size: 1rem;
+    text-align: center;
+}
+
+nav {
+    width: 600px;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  #search-bar {
+    color: rgba (0,0,0,.05);
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+.search-bar form { 
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: space-between;
+}
+
+  .search-bar form .npmlogo {
+    width: 5%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .search-bar form .magnifying-glass {
+    width: 3%;
+  }
+
+
+  #section-1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(232, 217, 217,0.3);
+
+  }
+
+  #section-1 p {
+    inline-size: 520px;
+  }
+
+  #section-1  div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+  }
+
+  #section-1 div .link-btn-see-plans {
+    background-color: #FB3B49;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 12px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px 20px;
+    font-weight: bold;
+
+  }
+
+  #section-1 div .link-btn-join-for-free {
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 12px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px 20px;
+    font-weight: bold;
+  }
+
+
+  #section-2 {
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  #section-2 img {
+    width: 15%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  
+  #section-2 p {
+    inline-size: 600px;
+    display: block;
+    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+
+  }
+
+#section-3 {
+  text-align: center;
+}
+
+  #section-3 div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+  }
+
+  .service-box {
+    font-size: 1.7em;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 40%;
+    
+  }
+  
+  .service-box img {
+    width: 30px;
+  }
+  
+  #section-3 .link-btn-section-3 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ed1c24;
+  }
+
+
+
+
+  #section-3  .link-btn-Create-an-Org { 
+    background-color: black;
+      color: white;
+      box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+      box-sizing: border-box;
+      font-size: 1rem;
+      padding: 12px 90px;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 10%;
+      margin-top: 5%;
+
+  }
